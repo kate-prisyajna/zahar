@@ -17,15 +17,17 @@ echo <<<'EOD'
 
 EOD;
 
-$arr= array(0=>1.2, 1=>3, 2=>-3.2, 4=>1.34, 5=>-0.3, 6=>1.2, 7=>1.93, 8=>0.67);
-
-natsort($arr);
-foreach ($arr as $key => $value) {
-    if($value==max($arr)){
-        print "$value [$key]\n";
+$arr=array(0=>1.2, 1=>3, 2=>-3.2, 4=>1.34, 5=>-0.3, 6=>1.2, 7=>1.93, 8=>0.67);
+foreach ($arr as $key=>$value) {
+    if ($value == max($arr)) {
+        print   "Максимальное число по величине:    Ключ=$key | Значение=$value\n";
+        $a=$key - 1;
+        print_r("Предыдущий элемент $arr[$a]");
     }
 
 }
-echo $max = max($arr). " самое большое число\n";
+
+
+
 
 
