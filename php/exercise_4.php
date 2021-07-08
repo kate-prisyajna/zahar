@@ -34,28 +34,28 @@ print_r(max($arr));
 
 После выполнения кода:
 
-
 EOD;
 
-$arr=array(0=>1.2, 1=>3, 2=>-3.2, 4=>1.34, 5=>-0.3, 6=>1.2, 7=>5.3, 8=>0.67);
+$arr=[1,5,8,7,6,3,21];
 
-echo "<br>Массив без сортироваки:<br>";
+echo "<br><b>Массив без сортироваки:</b><br>";
 foreach ($arr as $key=>$value) {
     print "Ключ=$key | Значение=$value<br>";
 }
 array_pop($arr);
 
-echo "<br>Предпоследний елемент: ";
+echo "<br><b>Предпоследний елемент: </b>";
 print_r(end($arr));
 
-echo "<br><br>Массив с сортировкой:<br>";
+$arr=[1,5,8,7,6,3,21];
+echo "<br><br><b>Массив с сортировкой:</b><br>";
 natsort($arr);
 foreach ($arr as $key=>$value) {
     print "Ключ=$key | Значение=$value<br>";
 }
 array_pop($arr);
 
-echo "<br>Предпоследний елемент: ";
+echo "<br><b>Предпоследний елемент: </b>";
 print_r(max($arr));
 
 
