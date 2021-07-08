@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 6</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 6) Сложить 4 с третьим элементом массива. Вывести результирующий массив?
 $A = array(1, 6, '2.2e2', 14);</b>
@@ -16,7 +22,12 @@ print $A[3] + 4;
 
 После выполнения кода:
 
-EOD;
+<?php
+
 $A = array(1, 6, '2.2e2', 14);
 print $A[3] + 4;
+
 ?>
+
+</body>
+</html>

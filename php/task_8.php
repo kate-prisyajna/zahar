@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 8</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 8) Как необходимо изменить инициализацию массива, 
 чтобы значение "California" имело индекс=4 без явного задания 4 => "California":
@@ -18,8 +24,13 @@ print $states_of_the_USA[4];
 
 После выполнения кода:
 
-EOD;
+<?php
+
 $states_of_the_USA = array("Alabama", "Colorado", "Hawaii", "California");
 $states_of_the_USA[] = "California";
 echo $states_of_the_USA[4];
+
 ?>
+
+</body>
+</html>

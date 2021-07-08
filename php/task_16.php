@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 16</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 16) Тремя способами преобразовать переменную $var в строку.</b>
 
@@ -16,9 +22,16 @@ $var = "'Я переменная'";
 ----------------------------------------------------------------------------------------------------------------------
 
 После выполнения кода:
-EOD;
+
+<?php
+
 $var = "'Я переменная'";
 
 echo "\nВариант №1 $var";
 print "\nВариант №2 $var";
 print_r("\nВариант №3 $var");
+
+?>
+
+</body>
+</html>

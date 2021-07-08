@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 7</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 7) Вывести кол-во повторений каждого элемента в массиве:
 $B = array("pen", "pensil", "pen", "book", "pensil");</b>
@@ -19,7 +25,12 @@ print_r(array_count_values($B));
 
 После выполнения кода:
 
-EOD;
+<?php
+
 $B = array("pen", "pensil", "pen", "book", "pensil");
 print_r(array_count_values($B));
+
 ?>
+
+</body>
+</html>

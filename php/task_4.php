@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 4</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 4) Что будет, если сравнить две переменные, почему?
 		$var1 = 4;
@@ -21,10 +27,15 @@ var_dump($var1 === $var2);
 
 После выполнения кода:
 
-EOD;
+<?php
+
 $var1 = 4;
 $var2 = '4';
 
 var_dump($var1 == $var2);
 var_dump($var1 === $var2);
+
 ?>
+
+</body>
+</html>

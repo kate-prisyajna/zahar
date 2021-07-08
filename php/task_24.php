@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 24</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 24) Создать константу и присвоить ей значение. Проверить: * присвоилось ли значение константе, * вывести значение, * попытаться изменить значение.
     Пример создания константы
@@ -21,9 +27,14 @@ echo <<<'EOD'
 
 После выполнения кода:
 
+<?php
 
-EOD;
 define ("SUPER_CONSTANT", "Тестеры - лучшие!");
 //define ("SUPER_CONSTANT", "Тестеры самые лучшие!");
 define ("CONSTANT", "И разработчики тоже норм)");
 echo SUPER_CONSTANT.  "\n".  CONSTANT. "\n";
+
+?>
+
+</body>
+</html>

@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 15</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 15) Чему будет равна $var1 , почему?
 
@@ -22,8 +28,14 @@ $var2 является ссылкой на $var1, что дает возможн
 
 После выполнения кода:
 
-EOD;
+<?php
+
 $var1 = 3;
 $var2 = &$var1;
 $var2=50;
 echo $var1;
+
+?>
+
+</body>
+</html>

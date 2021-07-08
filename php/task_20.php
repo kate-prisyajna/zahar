@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 20</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 20) Разработать функцию вычисления факториала заданного числа (n!).</b>
 
@@ -37,7 +43,8 @@ echo <<<'EOD'
 
 После выполнения кода:
 
-EOD;
+<?php
+
 $var=5;
 function factorial($k): int
 {
@@ -62,3 +69,8 @@ function factorial2($n): int
 }
 
 echo "$var! = " . factorial2($var) . "\n";
+
+?>
+
+</body>
+</html>

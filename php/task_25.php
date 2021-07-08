@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 25</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 25) Задан массив $arr= array(0=>1, 1=>-3, 2=>-9, 4=>1, 5=>3, 6=>12, 7=>-1, 8=>0). 
 Вычислить сумму всех элементов массива с нечетными индексами.</b>
@@ -23,8 +29,8 @@ print "\n Сумма = " . $sum;
 
 После выполнения кода:
 
+<?php
 
-EOD;
 $sum=0;
 $arr=array(0=>1, 1=>-3, 2=>-9, 4=>1, 5=>3, 6=>12, 7=>-1, 8=>0);
 foreach ($arr as $key=>$value) {
@@ -34,3 +40,8 @@ foreach ($arr as $key=>$value) {
     }
 }
 print "\n Сумма = " . $sum;
+
+?>
+
+</body>
+</html>

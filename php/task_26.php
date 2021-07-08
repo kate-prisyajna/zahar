@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 26</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 26) Задан массив $arr= array(0=>1.2, 1=>3, 2=>-3.2, 4=>1.34, 5=>-0.3, 6=>1.2, 7=>1.93, 8=>0.67). 
 Отсортировать и вывести массив по возрастанию элементов.</b>
@@ -26,8 +32,8 @@ foreach ($arr as $key=>$value) {
 
 После выполнения кода:
 
+<?php
 
-EOD;
 echo "По ключу </br>";
 $arr=array(0=>1.2, 1=>3, 2=>-3.2, 4=>1.34, 5=>-0.3, 6=>1.2, 7=>1.93, 8=>0.67);
 foreach ($arr as $key=>$value) {
@@ -40,3 +46,8 @@ natsort($arr);
 foreach ($arr as $key=>$value) {
     print "Ключ=$key | Значение=$value\n";
 }
+
+?>
+
+</body>
+</html>

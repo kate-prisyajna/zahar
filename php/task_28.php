@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 28</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 28) В переменной $year можно задать значение года в диапазоне от 0 до 9999. 
 Определить, является ли год, заданный в $year високосным.</b>
@@ -21,8 +27,7 @@ if ($year % 4 == 0) {
 
 После выполнения кода:
 
-
-EOD;
+<?php
 
 $year=2021;
 
@@ -31,3 +36,8 @@ if ($year % 4 == 0) {
 } else {
     echo "$year это обычный год";
 }
+
+?>
+
+</body>
+</html>

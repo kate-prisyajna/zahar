@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ЗАДАЧА 5</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 5. Вывести все простые числа в диапазоне от 30 до 60</b>
 
@@ -28,8 +34,7 @@ for ($k=30; $k <= 60; $k++) {   //Задаем диапазон чисел 30-60
 
 После выполнения кода:
 
-
-EOD;
+<?php
 
 for ($k=30; $k <= 60; $k++) {
     $is_prime=true;
@@ -44,4 +49,9 @@ for ($k=30; $k <= 60; $k++) {
     }
 
 }
+
+?>
+
+</body>
+</html>
 

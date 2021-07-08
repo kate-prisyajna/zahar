@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 10</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 10) Что выведется в данном примере, почему?
 		$A = array(1, 2, 4, 6);
@@ -31,7 +37,8 @@ echo <<<'EOD'
 
 После выполнения кода:
 
-EOD;
+<?php
+
 $A = array(1, 2, 4, 6);
 unset($A);
 if (isset($A)) {
@@ -39,3 +46,8 @@ if (isset($A)) {
 } else {
     echo "Массив не определен";
 }
+
+?>
+
+</body>
+</html>

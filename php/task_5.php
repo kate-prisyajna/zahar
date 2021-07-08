@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 5</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 5) Что будет в результате сравнения, почему?
 var_dump('hi' >= 'hi');</b>
@@ -16,6 +22,11 @@ var_dump('hi' >= 'hi');</b>
 
 После выполнения кода:
 
-EOD;
+<?php
+
 var_dump('hi' >= 'hi');
+
 ?>
+
+</body>
+</html>

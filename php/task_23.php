@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 23</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 23) Используя цикл for вывести все нечетные числа от 1 до 59 (в столбик).</b>
 
@@ -18,10 +24,15 @@ for ($i=0; $i <= 59; $i++) {
 
 После выполнения кода:
 
+<?php
 
-EOD;
 for ($i=0; $i <= 59; $i++) {
     if ($i % 2) {
         echo $i . "\n";
     }
 }
+
+?>
+
+</body>
+</html>

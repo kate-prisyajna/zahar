@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ЗАДАЧА 4</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 4. Найти элемент предыдущий перед максимальным по величине в массиве. (с сортировкой и без).</b>
 
@@ -34,7 +40,7 @@ print_r(max($arr));
 
 После выполнения кода:
 
-EOD;
+<?php
 
 $arr=[1,5,8,7,6,3,21];
 
@@ -57,6 +63,11 @@ array_pop($arr);
 
 echo "<br><b>Предпоследний елемент: </b>";
 print_r(max($arr));
+
+?>
+
+</body>
+</html>
 
 
 

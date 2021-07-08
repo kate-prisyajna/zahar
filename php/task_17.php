@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 17</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 17) Используя функцию settype, придать переменной $a значение 1, если $a="123a".</b>
 
@@ -20,9 +26,15 @@ $a = '123a';
 
 После выполнения кода:
 
-EOD;
+<?php
+
 $a = '123a';
 if ($a === '123a') {
     settype($a, "boolean");
     echo $a;}
 else echo  'Переменная а не равна 123a';
+
+?>
+
+</body>
+</html>

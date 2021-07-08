@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ЗАДАЧА 2</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 2. Дано: ассоциативный массив. Написать функцию arrayReverseKeys($a), которая перевернет ключи этого массива, 
 используя минимальное количество циклов. Функция должна возвращать массив как результат.
@@ -30,8 +36,7 @@ var_dump(arrayReverseKeys($a));
 
 После выполнения кода:
 
-
-EOD;
+<?php
 
 $a=array('a'=>'apple', 'b'=>'banana', 'c'=>'cherry');
 function arrayReverseKeys($a)
@@ -40,3 +45,8 @@ function arrayReverseKeys($a)
 }
 
 var_dump(arrayReverseKeys($a));
+
+?>
+
+</body>
+</html>

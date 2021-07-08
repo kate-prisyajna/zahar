@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 19</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 19) Какие ключи и значения содержит массив $c?
 echo "\n" . 'Ответ 19. ';
@@ -33,7 +39,8 @@ echo "\n" . 'Ответ 19. ';
 
 После выполнения кода:
 
-EOD;
+<?php
+
 $a=1;
 $p="a";
 define("b", 2);
@@ -54,5 +61,10 @@ for ($i=0; $i <= b; $i++) {
 }
 echo "После преобразования:";
 var_dump($c);
+
+?>
+
+</body>
+</html>
 
 

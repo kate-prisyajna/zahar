@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 3</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 3) Что выведется, почему?
 
@@ -19,10 +25,15 @@ echo <<<'EOD'
 ----------------------------------------------------------------------------------------------------------------------<br/>
 
 После выполнения кода:
-EOD;
+
+<?php
 
 $a=10;
 $b=&$a;
 unset ($a);
 echo "<pre> $b";
+
 ?>
+
+</body>
+</html>

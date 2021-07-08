@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 33</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 33) Выведите cумму всех цифр в числе $int.
 * Используйте цикл while или do while</b>
@@ -22,7 +28,7 @@ echo $sum;
 
 После выполнения кода:
 
-EOD;
+<?php
 
 $int=323;
 $sum = 0;
@@ -32,4 +38,9 @@ while ($int != 0) {
 }
 
 echo $sum;
+
+?>
+
+</body>
+</html>
 

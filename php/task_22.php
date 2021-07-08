@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 22</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 22) Условные операторы if, else, if:
 
@@ -31,8 +37,8 @@ $age = 6;
 
 После выполнения кода:
 
+<?php
 
-EOD;
 $age = 6;
 
 if ($age >= 18 && $age <=59) {
@@ -44,3 +50,8 @@ if ($age >= 18 && $age <=59) {
 } else {
     echo 'Ты паранормален!' . "\n";
 }
+
+?>
+
+</body>
+</html>

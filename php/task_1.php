@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 1</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 1) С помощью функции list вывести в переменной  vegetable первый элемент массива - помидор.
 $box=array('помидор', 'яблоко');</b>
@@ -16,10 +22,14 @@ echo "Ответ: первый элемент массива - $vegetable";
 ----------------------------------------------------------------------------------------------------------------------<br/>
 
 После выполнения кода:
-EOD;
+
+<?php
 
 $box=array('помидор', 'яблоко');
 list($vegetable)=$box;
 echo "<pre>Первый элемент массива - $vegetable";
 
 ?>
+
+</body>
+</html>

@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 27</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 27) Задан массив $arr= array(0=>1, 1=>-2, 2=>-9, 4=>3, 5=>1, 6=>12, 7=>-1, 8=>0). 
 Найти максимальный и минимальный элементы массива и вывести их.</b>
@@ -20,8 +26,7 @@ print "min = $min \n";
 
 После выполнения кода:
 
-
-EOD;
+<?php
 
 $arr=array(0=>1, 1=>-2, 2=>-9, 4=>3, 5=>1, 6=>12, 7=>-1, 8=>0);
 $max=max($arr);
@@ -29,3 +34,8 @@ $min=min($arr);
 
 print "max = $max \n";
 print "min = $min \n";
+
+?>
+
+</body>
+</html>

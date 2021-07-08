@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 11</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 11) Что выведется в случае а) и в случае б) в var_dump($var)? Почему?
            а) $var= var1 + var2
@@ -32,7 +38,8 @@ var_dump($var);
 
 После выполнения кода:
 
-EOD;
+<?php
+
 $var1 = array(0 => "car", 1 => "bicycle", 3 => "auto");
 $var2 = array("bike", "bicycle", "car");
 $var = $var1 + $var2;
@@ -42,3 +49,8 @@ $var1 = array(0 => "car", 1 => "bicycle", 3 => "auto");
 $var2 = array("bike", "bicycle", "car");
 $var = $var2 + $var1;
 var_dump($var);
+
+?>
+
+</body>
+</html>

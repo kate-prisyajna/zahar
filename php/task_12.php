@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 12</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 12) Что выведется в данном случае и почему?
 
@@ -22,9 +28,14 @@ echo <<<'EOD'
 
 После выполнения кода:
 
-EOD;
+<?php
+
 $A = 3;
 for ($k = 0; $k < 3; $k++) {
     echo $A-- . "<br/>";
 }
 
+?>
+
+</body>
+</html>

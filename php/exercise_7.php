@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ЗАДАЧА 7</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 7. Задача на логику “Счастливые билеты”
 Предположим, что номер билета состоит из 6 цифр. Билет считается
@@ -18,10 +24,6 @@ echo <<<'EOD'
 
 После выполнения кода:
 
-
-EOD;
-?>
-
     <form action="" method="post">
         Сколько будет цифр в билете <input type="text" name="t"><br>
         <input type="submit" value="Посчитать">
@@ -36,24 +38,24 @@ function luckyTickets($k)
         return 'Число цифр в билете нечетное';
     }
     $count=0;
-    $max_value = pow(10, $k / 2);
-    $t1 = 0;
+    $max_value=pow(10, $k / 2);
+    $t1=0;
     while ($t1 < $max_value) {
-        $left = (string)$t1;
-        $sum1 = 0;
-        $i = 0;
+        $left=(string)$t1;
+        $sum1=0;
+        $i=0;
         while (isset($left[$i])) {
-            $sum1 .= $left[$i];
+            $sum1.=$left[$i];
             $i++;
         }
-        $t2 = 0;
+        $t2=0;
         while ($t2 < $max_value) {
-            $right = (string)$t2;
+            $right=(string)$t2;
 
-            $j = 0;
-            $sum2 = 0;
+            $j=0;
+            $sum2=0;
             while (isset($right[$j])) {
-                $sum2 .= $right[$j];
+                $sum2.=$right[$j];
                 $j++;
             }
             if ($sum1 == $sum2) {
@@ -66,4 +68,10 @@ function luckyTickets($k)
     return $count;
 
 }
-echo "Количество счастливых билетов - ". luckyTickets($t);
+
+echo "Количество счастливых билетов - " . luckyTickets($t);
+
+?>
+
+</body>
+</html>

@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ЗАДАЧА 1</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 1. Дано массив целых чисел $a, отсортированный по возрастанию, и некое число $b. Написать функцию searchInArray($a, $b), 
 которая максимально быстро определит, есть ли в массиве искомый элемент и вернет TRUE или FALSE.</b>
@@ -26,8 +32,7 @@ var_dump(searchInArray([4, 77, 8, 5, 8, 8, 99], 5));
 
 После выполнения кода:
 
-
-EOD;
+<?php
 
 function searchInArray(array $a, $b)
 {
@@ -41,4 +46,9 @@ function searchInArray(array $a, $b)
 }
 
 var_dump(searchInArray([4, 77, 8, 5, 8, 8, 99], 5));
+
+?>
+
+</body>
+</html>
 

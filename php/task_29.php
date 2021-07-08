@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 29</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 29) В массиве содержится 5 чисел. Вывести произведение числа на его квадрат в виде 2^2=4.</b>
     
@@ -18,10 +24,15 @@ foreach ($arr as $key=>$value) {
 
 После выполнения кода:
 
-EOD;
+<?php
 
 $arr=array(0=>1.2, 1=>3, 2=>-3.2, 4=>1.34, 5=>-0.3, 6=>1.2, 7=>1.93, 8=>0.67);
 
 foreach ($arr as $key=>$value) {
     print "</br>$value ^ $value = " . pow($value, 2);
 }
+
+?>
+
+</body>
+</html>

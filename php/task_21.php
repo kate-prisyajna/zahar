@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 21</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 21) Отсортировать массивы: Имена в алфавитном порядке, в порядке убывания, а возраст в порядке возрастания:  <a href="https://i.imgur.com/GQBdDxI.png">https://i.imgur.com/GQBdDxI.png<a/>
 
@@ -44,8 +50,8 @@ echo <<<'EOD'
 
 После выполнения кода:
 
+<?php
 
-EOD;
 $spisok = array(
     'roz1' => array('id' => '1', 'age' => '19', 'gender' => 'm', 'login' => 'Kos'),
     'roz2' => array('id' => '2', 'age' => '12', 'gender' => 'm', 'login' => 'Oleg'),
@@ -74,3 +80,8 @@ function age_sort($x, $y)
 
 uasort($spisok, 'age_sort');
 print_r($spisok);
+
+?>
+
+</body>
+</html>

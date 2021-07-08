@@ -1,6 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 34</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-echo <<<'EOD'
 <pre><b>
 34) Назовите пары ключ\значение в массиве $array.
 $array = array(FALSE => TRUE, TRUE => FALSE, NULL => array(PHP_OS, "PHP_VERSION"));
@@ -36,7 +42,7 @@ print_r($array);
 
 После выполнения кода:
 
-EOD;
+<?php
 
 $array=array(FALSE=>TRUE, TRUE=>FALSE, NULL=>array(PHP_OS, "PHP_VERSION"));
 $array[NULL][]='Jeanne d\'Arc';
@@ -55,5 +61,10 @@ foreach ($array as $version=>$massiv) {
 }
 echo "<pre>Третий вариант:";
 print_r($array);
+
+?>
+
+</body>
+</html>
 
 
