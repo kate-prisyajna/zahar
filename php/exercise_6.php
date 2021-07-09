@@ -21,7 +21,7 @@
 После выполнения кода:
 
     <form action="" method="post">
-        Какой текст будем кодировать? <input type="text" name="myText"><br>
+        Какой текст будем кодировать? Только на русском языке =)  <input type="text" name="myText"><br>
         <input type="submit" value="Кодируем">
     </form>
 
